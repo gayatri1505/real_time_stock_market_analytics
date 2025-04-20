@@ -8,7 +8,7 @@ from google.cloud import pubsub_v1
 
 API_key = "YOUR_API_KEY"
 STOCKS = ['AAPL','MSFT','NVDA','AMZN','GOOGL']
-PROJECT_ID = "stock-market-analytics-457419"
+PROJECT_ID = "YOUR_PROJECT_ID"
 TOPIC_ID = "stock-data-topic"
 
 
