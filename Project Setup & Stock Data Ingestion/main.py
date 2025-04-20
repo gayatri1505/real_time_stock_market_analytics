@@ -6,7 +6,7 @@ import json
 #It lets you publish messages to topics or subscribe to them.
 from google.cloud import pubsub_v1
 
-API_key = "YOUR_API_KEY"
+API_KEY = "YOUR_API_KEY"
 STOCKS = ['AAPL','MSFT','NVDA','AMZN','GOOGL']
 PROJECT_ID = "YOUR_PROJECT_ID"
 TOPIC_ID = "stock-data-topic"
