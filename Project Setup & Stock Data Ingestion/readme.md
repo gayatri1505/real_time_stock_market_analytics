@@ -44,7 +44,7 @@
  ` --entry-point main \` \
   `--region us-central1`
 
-## Fix IAM Role Binding for Cloud Build
+## Fix IAM Role Binding for Cloud Build (if needed)
 
   1. Get your project number :
      `gcloud projects describe project_id --format="value(projectNumber)"`
