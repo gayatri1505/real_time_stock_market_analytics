@@ -1,3 +1,8 @@
+# Data Preparation
+
+All stock files stored in BigQuery were merged using python script to form unified stocks data (stocks_data.csv) for comprehensive analysis.
+
+
 # SQL Techniques used
 
 1. **Aggregation & Grouping**
