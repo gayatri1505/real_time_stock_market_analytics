@@ -4,7 +4,10 @@ This project builds a **real-time stock data pipeline** using **Google Cloud Pla
 
 ## Architecture Overview
 
+Designed data engineering pipeline architecture using **Visio**.
+
 ![image](https://github.com/user-attachments/assets/f7ac3c2f-6fd3-4bdf-b21c-83fd5edb49cd)
+
 
 ## Tech Stack
 
@@ -17,6 +20,7 @@ This project builds a **real-time stock data pipeline** using **Google Cloud Pla
 | Storage           | Google Cloud Storage        |
 | Data Warehouse    | Google BigQuery             |
 | Analysis          | BigQuery SQL, Colab         |
+| Programming Scripts & Deployment | Python 3.10  |
 
 ## Data Flow Description
 
@@ -69,7 +73,26 @@ Used BigQuery to perform a variety of stock data analyses:
 
 ## Setup Instructions
 
+Project is organized in four logical stages (FOLDERS). Follow this sequence when setting up:
 
+1. Project Setup & Stock Data Ingestion
+   
+   Configure and trigger data ingestion from the Alpha Vantage API.
+
+2. Data Storage
+   
+   Store data in Google Cloud Storage
+
+3. Load Data to BigQuery
+   
+   Move clean data into structured tables in BigQuery.
+
+4. Analytics
+   
+   Perform SQL-based analysis and visualizations.
+
+   
+   
 
 
 
