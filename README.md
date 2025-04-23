@@ -1,4 +1,4 @@
-# Real Time Stock Market Analytics on GCP
+# Real-Time Stock Market Data Pipeline with Google Cloud & BigQuery
 
 This project builds a **real-time stock data pipeline** using **Google Cloud Platform**, transforming and storing data from the Alpha Vantage API and enabling SQL-based analytics in BigQuery. It follows a modular architecture with ingestion, transformation, storage and analysis layers.
 
