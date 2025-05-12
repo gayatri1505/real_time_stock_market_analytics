@@ -12,7 +12,9 @@ In this step, we created an automated pipeline that listens for new files in Goo
 `GCS Bucket (raw) → Cloud Function → GCS Bucket (flat) → BigQuery Table`
 
 Trigger: New .json file uploaded to AAPL/, MSFT/, etc.
+
 Processing: Cloud Function flattens it
+
 Destination: Writes to AAPL_flat/ and loads to stock_data.aapl_flat
 
 
